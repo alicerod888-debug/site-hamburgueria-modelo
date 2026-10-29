@@ -1,0 +1,40 @@
+/* Tokens de design. As cores da marca (accent) são sobrescritas por src/config/store.js ao carregar. */
+:root {
+  --accent: #f5a300;
+  --accent-text: #111111;
+
+  --black: #000000;
+  --graphite-900: #151617;
+  --graphite-800: #1f2022;
+  --graphite-700: #2c2e31;
+  --graphite-500: #6b6e73;
+  --graphite-300: #b9bbbf;
+  --graphite-200: #dcdddf;
+  --paper: #f3f3f2;
+  --white: #ffffff;
+  --whatsapp: #25d366;
+  --whatsapp-text: #062b14;
+  --danger: #b3261e;
+
+  --text: #121212;
+  --muted: #55585c;
+  --line: #dcdddf;
+  --focus: #000000;
+
+  --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --radius: 10px;
+  --radius-lg: 18px;
+  --header-h: 68px;
+  --gutter: clamp(20px, 5vw, 48px);
+  --section-y: clamp(64px, 9vw, 112px);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.on-dark {
+  --text: #ffffff;
+  --muted: #b9bbbf;
+  --line: #2c2e31;
+  --focus: #ffffff;
+}

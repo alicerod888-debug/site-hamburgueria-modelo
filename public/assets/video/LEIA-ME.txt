@@ -1,0 +1,13 @@
+VÍDEO DE ABERTURA
+
+Para trocar o vídeo do cliente, substitua o arquivo "hero-burger.mp4" desta pasta
+por outro com o MESMO NOME (formato MP4, H.264, de preferência com poucos MB).
+Nenhum código precisa ser alterado. A moldura do vídeo se ajusta sozinha à proporção
+do novo arquivo (vertical, quadrado ou horizontal), sem cortar a imagem.
+
+Se quiser usar outro nome ou caminho, altere "intro.video" em src/config/store.js.
+Troque também a imagem de capa em public/assets/images/hero-poster.jpg
+(ela aparece enquanto o vídeo carrega ou se o navegador bloquear a reprodução).
+
+Dica de desempenho: exporte com "faststart" (ffmpeg: -movflags +faststart) para o
+vídeo começar a tocar antes de terminar de baixar.

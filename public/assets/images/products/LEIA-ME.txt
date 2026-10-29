@@ -1,0 +1,9 @@
+FOTOS DOS PRODUTOS
+
+Coloque aqui as fotos dos produtos (JPG ou WebP, ideal 800x600 px, proporção 4:3, até ~150 KB).
+Use nomes sem acentos e sem espaços. Exemplo: classico.jpg
+
+Depois indique o caminho em src/data/products.js:
+  image: "/assets/images/products/classico.jpg"
+
+Produto sem foto (image: "") usa automaticamente "placeholder.svg".

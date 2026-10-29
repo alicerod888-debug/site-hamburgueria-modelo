@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="%STORE_LANG%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>%STORE_TITLE%</title>
+    <meta name="description" content="%STORE_DESCRIPTION%" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="%STORE_TITLE%" />
+    <meta property="og:description" content="%STORE_DESCRIPTION%" />
+    <meta property="og:image" content="%STORE_OG_IMAGE%" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Fontes (opcional): se preferir não usar o Google Fonts, apague estas 3 linhas.
+         O site continua funcionando com as fontes do sistema. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet" />
+
+    <style>
+      /* Evita flash branco antes do CSS carregar */
+      html { background: #000; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Para ver o cardápio e fazer pedidos, ative o JavaScript no seu navegador.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
